@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace PaymentService
 {
@@ -46,7 +48,7 @@ namespace PaymentService
                 // Create HttpClient
                 using (var httpClient = new HttpClient())
                 {
-                    httpClient.DefaultRequestHeaders.Add("X-VERIFY", base64EncodedPayload+"###1");
+                    httpClient.DefaultRequestHeaders.Add("X-VERIFY", base64EncodedPayload + "###1");
 
                     // Send POST request to PhonePe API to initiate payment
                     var response = await httpClient.PostAsync($"{hostUrl}/initiate-payment",

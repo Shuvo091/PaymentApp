@@ -3,21 +3,3 @@
 }
 
 <h2>Welcome to My Payment Portal</h2>
-
-<div>
-    <!-- Payment Form -->
-    <form action="@Url.Action("ProcessPayment", "Home")" method="post">
-        <div>
-            <label for="amount">Amount:</label>
-            <input type="text" id="amount" name="amount" placeholder="Enter amount" />
-        </div>
-        <div>
-            <label for="cardNumber">Card Number:</label>
-            <input type="text" id="cardNumber" name="cardNumber" placeholder="Enter card number" />
-        </div>
-        <!-- Add other fields like card type, expiry, CVV, etc. based on your requirements -->
-        <div>
-            <button type="submit">Make Payment</button>
-        </div>
-    </form>
-</div>
