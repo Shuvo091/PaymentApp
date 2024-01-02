@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5gOVfb1D7M2aiJcL6lpxqnbqgTEwFlaIaEpVVzdp0oIA67AijX74Of9pvUBJkIMhMZUMnkCA6wLt6DoZjTrUDQ==",
+  "success": true,
+  "projectFilePath": "D:\\Personal\\PersonalProjects\\PaymentService\\Payment\\Payment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mehedihasan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\mehedihasan\\.nuget\\packages\\system.security.permissions\\8.0.0\\system.security.permissions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mehedihasan\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
